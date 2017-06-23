@@ -14,7 +14,7 @@ VALID_MODEL_DESCRIPTIONS = {
 
 
 def evaluate_model(model, demographics, diagnoses, do_sedits=False, date_asof=None):
-    """Evaluate a risk model for every person in the `demographics` DataFrame
+    """Evaluate a risk model for every person in the demographics DataFrame
 
         The demographics DataFrame has one row per person.  Different
         models require different column names in the DataFrame.
